@@ -5,13 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <div>
-        <div>
-            <!-- About me -->
-            <div>
+    <div class="app">
+        <!-- About me -->
+        <div class="right-side-container">
+            <div class="about-me">
                 <h4>Front-End Developer</h4>
                 <h1>John Doe</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -86,44 +92,45 @@
                 </div>
             </div>
 
-            <aside>
-                <img src="resources/photo.jpg" alt="Profile picture" width="370">
-
-                <!-- Contact -->
-                <div>
-                    <h3>Contacts</h3>
-                    <a href="tel+111111111111"><span>C:</span>+
-                        1 111 1111 11 11
-                    </a>
-                    <a href="mailto:johndoe@gmail.com"><span>E:</span>+
-                        johndoe@gmail.com
-                    </a>
-                </div>
-
-                <!-- Skills -->
-                <div>
-                    <h3>Tech Skills</h3>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>GIT</li>
-                        <li>WebPack</li>
-                        <li>JavaScript</li>
-                        <li>React.js</li>
-                        <li>Node.js</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Scrum</li>
-                        <li>Agile</li>
-                        <li>GTD</li>
-                        <li>Teamwork</li>
-                    </ul>
-                </div>
-            </aside>
         </div>
+
+        <aside class="sidebar-section">
+            <img src="resources/photo.jpg" alt="Profile picture" width="370">
+
+            <!-- Contact -->
+            <div>
+                <h3>Contacts</h3>
+                <a href="tel+111111111111"><span>C:</span>+
+                    1 111 1111 11 11
+                </a>
+                <a href="mailto:johndoe@gmail.com"><span>E:</span>+
+                    johndoe@gmail.com
+                </a>
+            </div>
+
+            <!-- Skills -->
+            <div>
+                <h3>Tech Skills</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>GIT</li>
+                    <li>WebPack</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Scrum</li>
+                    <li>Agile</li>
+                    <li>GTD</li>
+                    <li>Teamwork</li>
+                </ul>
+            </div>
+        </aside>
     </div>
 </body>
 
