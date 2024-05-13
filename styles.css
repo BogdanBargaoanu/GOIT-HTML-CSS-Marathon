@@ -1,7 +1,15 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #F6F6FA;
 }
 
+.app {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+}
 .sidebar-section {
     background-color: #DFEEFF;
 }
@@ -102,13 +110,148 @@ body {
 
 }
 
-.app {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    margin: 40px auto;
-}
 
 .right-side-container {
     padding-left: 88px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 180px;
+}
+
+.about-me-profession {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-me-name {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.about-me-description {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -15px;
+}
+
+.projects {
+    margin-top: 40px;
+}
+
+.projects-header {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.projects-list {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.project-name {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.project-info {
+    font-weight: 400;
+}
+
+.work-experience {
+    margin-top: 40px;
+}
+
+.work-experience-header {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.work-experience-company {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.company-position {
+    color: #6096FF;
+    margin-left: 10px;
+}
+
+.company-time {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.company-elements-list {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: -15px;
+    margin-top: -5px;
+}
+
+.company-container {
+    margin-top: -10px;
+}
+
+.education-container {
+    margin-top: 40px;
+}
+
+.education-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+}
+
+.education-name {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: normal;
+    color: #6096ff;
+}
+
+.education-role {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.education-date {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -10px;
 }
