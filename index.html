@@ -95,23 +95,27 @@
         </div>
 
         <aside class="sidebar-section">
-            <img src="resources/photo.jpg" alt="Profile picture" width="370">
+            <img class="sidebar-image" src="resources/photo.jpg" alt="Profile picture" width="370">
 
             <!-- Contact -->
-            <div>
-                <h3>Contacts</h3>
-                <a href="tel+111111111111"><span>C:</span>+
-                    1 111 1111 11 11
-                </a>
-                <a href="mailto:johndoe@gmail.com"><span>E:</span>+
-                    johndoe@gmail.com
-                </a>
+            <div class="contact-information">
+                <h3 class="contact-header">Contacts</h3>
+                <div class="contact-element">
+                    <span class="contact-item">C:</span><a href="tel+111111111111" class="contact-phone">+
+                        1 111 1111 11 11
+                    </a>
+                </div>
+                <div>
+                    <span class="contact-item">E:</span><a href="mailto:johndoe@gmail.com" class="contact-email">+
+                        johndoe@gmail.com
+                    </a>
+                </div>
             </div>
 
             <!-- Skills -->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
+            <div class="tech-skills-container">
+                <h3 class="tech-skills-header">Tech Skills</h3>
+                <ul class="tech-skills-list">
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>GIT</li>
@@ -121,9 +125,9 @@
                     <li>Node.js</li>
                 </ul>
             </div>
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
+            <div class="soft-skills-container">
+                <h3 class="soft-skills-header">Soft Skills</h3>
+                <ul class="soft-skills-list">
                     <li>Scrum</li>
                     <li>Agile</li>
                     <li>GTD</li>
